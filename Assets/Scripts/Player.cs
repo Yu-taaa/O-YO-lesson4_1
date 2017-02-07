@@ -1,0 +1,1 @@
+﻿using UnityEngine;  using System.Collections;    public class Player : MonoBehaviour {     	void OnCollisionEnter(Collision other){ 		if (other.gameObject.tag == "Enemy") {  			Destroy (other.gameObject); 		}   	}   }
